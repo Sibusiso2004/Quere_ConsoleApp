@@ -50,17 +50,9 @@ namespace Quere
             Console.WriteLine("");
             Console.WriteLine(".............Quote.............");
             Console.WriteLine("");
-            Console.WriteLine("Full Name: "+ obj.Fullname.ToString());
-            Console.WriteLine("Surname: " + obj.Surname.ToString());
-            Console.WriteLine("Gender: " + obj.Gender.ToString());
-            Console.WriteLine("Category: " + obj.Category.ToString());
-            Console.WriteLine("KitType: " + obj.KitType.ToString());
-            Console.WriteLine("Size: " + obj.Size.ToString());
-            Console.WriteLine("Order Date: " + obj.OrderDate.ToString("G"));
-            Console.WriteLine("Total Price: R " + obj.CalcBasic());
-            Console.WriteLine("Total Discount Amount: R " + obj.TotalDiscountGiven());
-            Console.WriteLine("Final Amount: R " + obj.FinalTotalAmount());
-
+            console.WriteLine("Full name\tSurname\tGender\tCategory\tKitType\tSize\tOrder date\tTotal price\tTotal Discount Amount\tFinal Amount");
+            Console.WriteLine(obj.Fullname.ToString()+"\t"+ obj.Surname.ToString()+"\t"+ obj.Gender.ToString()+"\t"+obj.Category.ToString()+"\t"+ obj.KitType.ToString()+"\t"+ obj.Size.ToString()+"\t"+obj.OrderDate.ToString("G")+"\t"+obj.CalcBasic()+"\t"+obj.TotalDiscountGiven()+"\t"+obj.FinalTotalAmount());
+           
 
 
 
