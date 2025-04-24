@@ -13,7 +13,8 @@ namespace Quere
         {
             Customer obj = new Customer();
 
-           
+           Console.WriteLine("Quere console application");
+           Console.WriteLine("Dev: Haides Hagarama");
             //this is a long reminder. its been 3 years since i coded a console application, so computer.... please bare with me on this one.
             Console.Write("Enter your name please: ");
             obj.Fullname = Console.ReadLine();
